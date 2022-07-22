@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+.header {
+    /* margin: 0 auto; */
+    max-width: 1600px;
+    height: 100vh;
+    background-image: url('../img/main_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    height: auto;
+}
+
+/* .main__navigation {
+    display: flex;
+} */
+
+.navigation__menu {
+    display: flex;
+}
+
+.navigation__menu--item {
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.phone__contact {
+    font-size: 17px;
+    color:#fff;
+    text-transform: uppercase;
+    list-style: none;
+}
